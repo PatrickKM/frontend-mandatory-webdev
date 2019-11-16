@@ -1,5 +1,5 @@
 // OMDB API - base link with API key inserted - ready to be manipulated by JavaScript.
-let url = 'http://www.omdbapi.com/?apikey=f6d15622&t=';
+let url = 'https://www.omdbapi.com/?apikey=f6d15622&t=';
 
 // Local user created JSON data.
 let movieJson = {
