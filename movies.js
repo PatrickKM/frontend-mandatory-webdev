@@ -25,7 +25,7 @@ let movieJson = {
         },
         {
             "title": "Toy Story",
-            "youtubeID": "=4KPTXpQehio",
+            "youtubeID": "4KPTXpQehio",
         }
     ]
 };
