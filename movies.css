@@ -143,3 +143,9 @@ iframe {
       max-width: 80%;
     }
   }
+
+@media screen and (min-width: 1000px) {
+    img {
+        width: 40%;
+    }
+}
