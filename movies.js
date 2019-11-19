@@ -63,6 +63,7 @@ for (let i = 0; i < movieJson.movies.length; i++) {
 
             const poster = document.createElement("img");
             poster.setAttribute("src", movie.Poster);
+            poster.setAttribute("alt", "Poster of " + movie.Title)
 
             const video = document.createElement("div");
             video.setAttribute("id", "player" + i);
