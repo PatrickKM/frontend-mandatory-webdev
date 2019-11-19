@@ -81,8 +81,8 @@ for (let i = 0; i < movieJson.movies.length; i++) {
             let date = new Date();
             let year = date.getFullYear();
             let ageInYears = year - movie.Year;
-            // IF statement for at udregne hvor mange Ã¥r siden det var, fÃ¸r filmen udkom
-            // hvis filmen udkom i det nuvÃ¦rende Ã¥r, indsÃ¦ttes en anden vÃ¦rdi.
+
+            // If statement to calculate how many years ago since the movies release
             if (year != movie.Year) {
                 age.textContent = "Released in " + movie.Year + " (" + ageInYears + " years ago)";
             } else {
